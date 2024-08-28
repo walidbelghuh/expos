@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html>
+
+      <head>
+                      <title> calcule recette</title>
+      </head>
+
+      <body>
+
+	          <p>  <h1> &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp&nbsp &nbsp &nbsp &nbsp &nbsp &nbsp entrer le nombre des pieces &nbsp:</h1> </p>
+	     <h3> <h3>
+		 <p>&nbsp 0.050 :  <input type="var" id="inputAX"></p>
+		 <p>&nbsp 0.100 :  <input type="var" id="inputBX"></p>
+		 <p>&nbsp 0.200 : <input type="var" id="inputCX"> <p" id="RTSS"> </p>
+		 <p>&nbsp 0.500 : <input type="var" id="inputDX"></p>
+		 <p>&nbsp 1.000 : <input type="var" id="inputEX"></p>
+		 <p>&nbsp 2.000 : <input type="var" id="inputFX"></p>
+		 <p>&nbsp 5.000 : <input type="var" id="inputGX"></p>
+		 <p> 10.000 : <input type="var" id="inputHX"></p>
+		 <p> 20.000 : <input type="var" id="inputIX"></p>
+		 <p> 50.000 : <input type="var" id="inputJX"></p>
+		
+		 </br>
+		 <h2> <h2>
+		 &nbsp &nbsp &nbsp<button onclick= "calculrecette()"><h3>cliquer ici pour calculer la recette </h3></button>
+		 
+
+	    <p" id="RTS"> </h2></P>
+		 
+		  <p> </p>
+	     
+     
+
+	 </body>
+	        
+			
+			<script>
+			function calculrecette() {
+			let AAX=(0.050)*inputAX.value;
+			let BBX=(0.1)*inputBX.value;
+			let CCX=(0.2)*inputCX.value;
+			let DDX=(0.5)*inputDX.value;
+			let EEX=1*inputEX.value;
+			let FFX=2*inputFX.value;
+			let GGX=5*inputGX.value;
+			let HHX=10*inputHX.value;
+			let IIX=20*inputIX.value;
+			let JJX=50*inputJX.value;
+			let ADDX=((((AAX + BBX) + (CCX + DDX)) + ((EEX + FFX) + (GGX + HHX))) + (IIX + JJX));
+			let recette = ADDX-206.000;
+			RTS.innerHTML = " &nbsp &nbsp &nbsp LA RECETTE EST :&nbsp &nbsp" +recette+"&nbsp DT";
+			if(recette<500) {
+			RTSS.innerHTML= "&nbsp &nbsp &nbsp&nbsp &nbsp   دون المطلوب مستوى ضعيف لا يعمل  ";
+			} else if (recette>=500 && recette <=700) {
+			RTSS.innerHTML= "&nbsp &nbsp &nbsp&nbsp &nbsp متوسط عليه بالعمل أكثر  ";
+			} else if(recette> 700 && recette <=999) {
+			RTSS.innerHTML= "&nbsp &nbsp &nbsp&nbsp &nbsp فوق المتوسط حسن واصل ";
+			}else if(recette>999) {
+			RTSS.innerHTML= "&nbsp &nbsp &nbsp&nbsp &nbsp BRAVO BRAVO FELICITATION &nbsp &nbsp حســـن جــــدا  ";
+			}
+			}
+				
+	        </script>
+
+
+
+</html>

@@ -1,0 +1,94 @@
+body {
+    background-image: url('http://ekladata.com/rWwkH7kjeaEqPalsuw6h8sDv5_w.gif');
+	background-size: cover;
+	margin: 40px;
+}
+#im1 {
+	float:right ;
+	margin: -10px;
+}
+#date {
+	float:right ;
+	color: #800080;
+	font-size: 25px ;
+	margin: 10px;
+	margin-right: 40px;
+
+   animation-duration: .8s;
+   animation-name: clignoter;
+   animation-iteration-count: infinite;
+   transition: none;
+  color: 
+}
+@keyframes clignoter {
+  0%   { color:#000000; }
+  40%   {color:#F1A200; }
+  100% { opacity:#000000; }
+}
+#newss {
+	float:right ;
+}
+h1 {
+	color:blue;
+	margin: -10px;
+   animation-duration: 5s;
+   animation-name: clignoter;
+   animation-iteration-count: infinite;
+   transition: none;
+  color: 
+}
+@keyframes clignoter {
+  40%   { color:#000000; }
+  20%   {color:red; }
+  40% { opacity:#000000; }
+}
+.bouton1 {
+
+            padding: 15px 25px;
+            border: 2px solid #007BFF;
+            border-radius: 35px; /* Arrondit les coins */
+            background-color: #007BFF;
+            color: white;
+            cursor: pointer;
+            font-size: 20px;
+			
+}
+.bouton2{
+
+	            padding: 15px 25px;
+            border: 2px solid #007BFF;
+            border-radius: 35px; /* Arrondit les coins */
+            background-color: #007BFF;
+            color: white;
+            cursor: pointer;
+            font-size: 20px;
+}
+#RTS {
+	            padding: 15px 25px;
+            border: 2px solid #007BFF;
+            border-radius: 35px; /* Arrondit les coins */
+            background-color: #007BFF;
+            color: #00FF00;
+            cursor: pointer;
+            font-size: 20px;
+}
+#RTSS {
+	margin: -10px;
+	float:right ;
+
+    font-size: 50px;
+    padding: 20px;
+	   animation-duration: .8s;
+   animation-name: clignoter;
+   animation-iteration-count: infinite;
+   transition: none;
+  color: 
+}
+@keyframes clignoter {
+  40%   { color:#000000; }
+  20%   {color:red; }
+  40% { opacity:#000000; }
+}
+.aaa{
+	color: #00FF00;
+}
