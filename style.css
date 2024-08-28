@@ -3,6 +3,48 @@ body {
 	background-size: cover;
 	margin: 40px;
 }
+#newss {
+	float:right ;
+}
+.aac{
+	color: #00FF00;
+
+}.aab{
+	color: #00FF00;
+}.mpssh{
+	color: #00FF00;
+}#prenomh{
+	padding:10px;
+	font-size: 15px ;
+	
+}#nomh{
+	padding: 10px;
+	font-size: 15px ;
+}#mdp{
+	padding: 10px;
+	font-size: 15px ;
+}.bouton1 {
+
+            padding: 15px 25px;
+            border: 2px solid #007BFF;
+            border-radius: 35px; /* Arrondit les coins */
+            background-color: #007BFF;
+            color: white;
+            cursor: pointer;
+            font-size: 20px;
+			
+}
+.bouton2{
+
+	            padding: 15px 25px;
+            border: 2px solid #007BFF;
+            border-radius: 35px; /* Arrondit les coins */
+            background-color: #007BFF;
+            color: white;
+            cursor: pointer;
+            font-size: 20px;
+}
+
 #im1 {
 	float:right ;
 	margin: -10px;
@@ -25,12 +67,10 @@ body {
   40%   {color:#F1A200; }
   100% { opacity:#000000; }
 }
-#newss {
-	float:right ;
-}
+
 h1 {
 	color:blue;
-	margin: -10px;
+	margin:80px;
    animation-duration: 5s;
    animation-name: clignoter;
    animation-iteration-count: infinite;
@@ -42,27 +82,7 @@ h1 {
   20%   {color:red; }
   40% { opacity:#000000; }
 }
-.bouton1 {
 
-            padding: 15px 25px;
-            border: 2px solid #007BFF;
-            border-radius: 35px; /* Arrondit les coins */
-            background-color: #007BFF;
-            color: white;
-            cursor: pointer;
-            font-size: 20px;
-			
-}
-.bouton2{
-
-	            padding: 15px 25px;
-            border: 2px solid #007BFF;
-            border-radius: 35px; /* Arrondit les coins */
-            background-color: #007BFF;
-            color: white;
-            cursor: pointer;
-            font-size: 20px;
-}
 #RTS {
 	            padding: 15px 25px;
             border: 2px solid #007BFF;
@@ -72,12 +92,11 @@ h1 {
             cursor: pointer;
             font-size: 20px;
 }
-#RTSS {
-	margin: -10px;
-	float:right ;
-
-    font-size: 50px;
-    padding: 20px;
+#msg {
+	float: right  ;
+    margin: -10px;
+    font-size: 70px;
+    padding: -50px;
 	   animation-duration: .8s;
    animation-name: clignoter;
    animation-iteration-count: infinite;
@@ -89,6 +108,5 @@ h1 {
   20%   {color:red; }
   40% { opacity:#000000; }
 }
-.aaa{
-	color: #00FF00;
-}
+
+
